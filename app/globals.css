@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-font-smoothing: antialiased; }
+  body { @apply bg-ivory text-ink font-sans; }
+  h1, h2, h3 { @apply font-display font-extrabold tracking-tight text-ink; }
+  ::selection { @apply bg-maroon text-ivory; }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition
+      disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary { @apply btn bg-maroon text-ivory hover:bg-maroon-600 shadow-lift; }
+  .btn-secondary { @apply btn border border-ink/15 bg-white/60 text-ink hover:border-ink/40 hover:bg-white; }
+  .btn-ghost { @apply btn text-ink-600 hover:bg-ink/5 hover:text-ink; }
+  .btn-sm { @apply px-3.5 py-1.5 text-xs; }
+
+  .card { @apply rounded-2xl border border-ink/10 bg-white shadow-card; }
+  .input {
+    @apply w-full rounded-xl border border-ink/15 bg-white px-3.5 py-2.5 text-sm text-ink placeholder:text-ink-300
+      outline-none transition focus:border-maroon focus:ring-2 focus:ring-maroon/15;
+  }
+  .label { @apply mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink-500; }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border border-ink/10 bg-white px-3 py-1 text-xs font-medium text-ink-600;
+  }
+  .chip-active { @apply border-maroon bg-maroon text-ivory; }
+  .eyebrow {
+    @apply flex items-center gap-3 text-xs font-bold uppercase tracking-[0.2em] text-maroon
+      before:block before:h-px before:w-10 before:bg-maroon;
+  }
+  .badge { @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-wide; }
+  .table-row { @apply border-b border-ink/5 last:border-0; }
+}
+
+/* Leaflet */
+.leaflet-container { font-family: inherit; border-radius: 20px; }

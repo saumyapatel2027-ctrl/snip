@@ -6,20 +6,20 @@ export default {
     container: { center: true, padding: "1.25rem", screens: { "2xl": "1240px" } },
     extend: {
       colors: {
-        ivory: { DEFAULT: "#FAF7F2", 100: "#F4EEE4", 200: "#EADFCE" },
-        ink: { DEFAULT: "#1A1614", 600: "#4A413B", 500: "#6E625A", 300: "#B3A79C" },
-        maroon: { DEFAULT: "#8A1C3B", 600: "#741532", 50: "#F8E9EE" },
+        ivory: { DEFAULT: "#FBF6EF", 100: "#F5ECE0", 200: "#EADCC8" },
+        ink: { DEFAULT: "#1E1714", 600: "#463B35", 500: "#6B5E56", 300: "#B5A89D" },
+        maroon: { DEFAULT: "#5C1A2C", 600: "#481322", 400: "#7D2A40", 50: "#F6E9EC" },
         saffron: { DEFAULT: "#C98A2B", 50: "#FBF1DF" },
         jade: { DEFAULT: "#2F6B57", 50: "#E5F1EC" },
       },
       fontFamily: {
-        display: ["Fraunces", "Georgia", "serif"],
-        sans: ["'Plus Jakarta Sans'", "system-ui", "sans-serif"],
+        display: ["Manrope", "system-ui", "sans-serif"],
+        sans: ["Manrope", "system-ui", "sans-serif"],
       },
       borderRadius: { xl: "14px", "2xl": "20px", "3xl": "28px" },
       boxShadow: {
         card: "0 1px 2px rgba(26,22,20,.04), 0 8px 24px -12px rgba(26,22,20,.12)",
-        lift: "0 24px 48px -20px rgba(138,28,59,.25)",
+        lift: "0 24px 48px -20px rgba(92,26,44,.28)",
       },
       keyframes: {
         marquee: { from: { transform: "translateX(0)" }, to: { transform: "translateX(-50%)" } },

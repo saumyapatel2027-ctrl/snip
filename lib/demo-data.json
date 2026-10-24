@@ -1,0 +1,255 @@
+[
+  {
+    "slug": "aarohi-studio",
+    "name": "Aarohi Studio",
+    "kind": "Emerging designer",
+    "tagline": "Contemporary blouses and occasion wear, cut to fit you.",
+    "bio": "Aarohi Mehta is an NIFT-trained designer working out of a small atelier in Hauz Khas. She specialises in fitted blouses, lehenga alterations and modern drapes, and does home fittings across South Delhi.",
+    "area": "Hauz Khas",
+    "address": "Hauz Khas Village, New Delhi 110016",
+    "lat": 28.5535,
+    "lng": 77.1941,
+    "phone": "9810000001",
+    "email": "hello@aarohistudio.in",
+    "instagram": "aarohi.studio",
+    "categories": ["Blouses", "Bridal", "Custom stitching"],
+    "starting_price": 699,
+    "home_visits": true,
+    "studio_visits": true,
+    "cover_url": "/img/designer.jpg",
+    "photos": ["/img/designer.jpg", "/img/hero.jpg"],
+    "rating": 4.9,
+    "review_count": 38,
+    "plan": "priority",
+    "snip_code": "SN-2048",
+    "services": [
+      { "name": "Blouse alteration", "description": "Fit, length and sleeve adjustments.", "price": 699, "duration_mins": 45 },
+      { "name": "Designer blouse stitching", "description": "Pattern, lining and finishing included.", "price": 2499, "duration_mins": 60 },
+      { "name": "Lehenga fitting", "description": "Waist, length and can-can adjustments.", "price": 1499, "duration_mins": 60 }
+    ],
+    "reviews": [
+      { "author_name": "Riya K.", "rating": 5, "comment": "Came home for the fitting and got my blouse perfect in one trial." },
+      { "author_name": "Sneha P.", "rating": 5, "comment": "Clear pricing and on time. My go-to now." }
+    ]
+  },
+  {
+    "slug": "the-stitch-room",
+    "name": "The Stitch Room",
+    "kind": "Boutique",
+    "tagline": "Everyday alterations, done right and done fast.",
+    "bio": "A neighbourhood boutique in Lajpat Nagar with a team of five master tailors. Quick turnarounds on alterations, salwar suits and kurtas.",
+    "area": "Lajpat Nagar",
+    "address": "Central Market, Lajpat Nagar II, New Delhi 110024",
+    "lat": 28.5677,
+    "lng": 77.2433,
+    "phone": "9810000002",
+    "email": "stitchroom@example.in",
+    "instagram": "thestitchroom.del",
+    "categories": ["Alterations", "Suits", "Custom stitching"],
+    "starting_price": 499,
+    "home_visits": true,
+    "studio_visits": true,
+    "cover_url": "/img/customer.jpg",
+    "photos": ["/img/customer.jpg"],
+    "rating": 4.8,
+    "review_count": 54,
+    "plan": "premium",
+    "snip_code": "SN-1173",
+    "services": [
+      { "name": "Basic alteration", "description": "Hemming, taking in or letting out.", "price": 499, "duration_mins": 30 },
+      { "name": "Salwar suit stitching", "description": "Kurta, salwar and dupatta finishing.", "price": 1299, "duration_mins": 45 },
+      { "name": "Kurta stitching", "description": "Custom kurta with your fabric.", "price": 899, "duration_mins": 45 }
+    ],
+    "reviews": [
+      { "author_name": "Ananya S.", "rating": 5, "comment": "Fixed three dresses in two days." },
+      { "author_name": "Mohit R.", "rating": 4, "comment": "Good work, slightly busy on weekends." }
+    ]
+  },
+  {
+    "slug": "mira-tailoring",
+    "name": "Mira Tailoring",
+    "kind": "Custom tailoring",
+    "tagline": "Made-to-measure dresses and western wear.",
+    "bio": "Mira runs a home studio in Saket focused on dresses, co-ords and western silhouettes. Bring a reference picture and she will draft a pattern for your measurements.",
+    "area": "Saket",
+    "address": "Saket, New Delhi 110017",
+    "lat": 28.5245,
+    "lng": 77.2066,
+    "phone": "9810000003",
+    "email": "mira@example.in",
+    "instagram": "miratailoring",
+    "categories": ["Dresses", "Custom stitching", "Alterations"],
+    "starting_price": 599,
+    "home_visits": true,
+    "studio_visits": false,
+    "cover_url": "/img/final.jpg",
+    "photos": ["/img/final.jpg"],
+    "rating": 4.9,
+    "review_count": 27,
+    "plan": "premium",
+    "snip_code": "SN-3391",
+    "services": [
+      { "name": "Dress alteration", "description": "Fit adjustments for any dress.", "price": 599, "duration_mins": 30 },
+      { "name": "Custom dress", "description": "Pattern drafting and stitching from a reference.", "price": 2999, "duration_mins": 60 }
+    ],
+    "reviews": [
+      { "author_name": "Tara M.", "rating": 5, "comment": "She copied a dress from a photo better than the original." }
+    ]
+  },
+  {
+    "slug": "kaarigar-house",
+    "name": "Kaarigar House",
+    "kind": "Boutique",
+    "tagline": "Bridal and festive couture with zardozi work.",
+    "bio": "A family-run couture house in Chandni Chowk with three generations of karigars. Bridal lehengas, sherwanis and hand embroidery.",
+    "area": "Chandni Chowk",
+    "address": "Kinari Bazaar, Chandni Chowk, Delhi 110006",
+    "lat": 28.6562,
+    "lng": 77.2303,
+    "phone": "9810000004",
+    "email": "kaarigarhouse@example.in",
+    "instagram": "kaarigar.house",
+    "categories": ["Bridal", "Menswear", "Custom stitching"],
+    "starting_price": 1499,
+    "home_visits": false,
+    "studio_visits": true,
+    "cover_url": null,
+    "photos": [],
+    "rating": 4.7,
+    "review_count": 61,
+    "plan": "free",
+    "snip_code": "SN-0817",
+    "services": [
+      { "name": "Bridal lehenga consultation", "description": "Design, fabric and budget planning.", "price": 1499, "duration_mins": 60 },
+      { "name": "Sherwani stitching", "description": "Custom fit with your fabric.", "price": 4999, "duration_mins": 60 }
+    ],
+    "reviews": [
+      { "author_name": "Priya & Arjun", "rating": 5, "comment": "Both our wedding outfits came from here." }
+    ]
+  },
+  {
+    "slug": "sui-dhaga-by-nidhi",
+    "name": "Sui Dhaga by Nidhi",
+    "kind": "Emerging designer",
+    "tagline": "Indo-western pieces and saree blouses.",
+    "bio": "Nidhi left a corporate job to start her label. She works with handloom fabrics and makes saree blouses and Indo-western sets from her Dwarka studio.",
+    "area": "Dwarka",
+    "address": "Sector 12, Dwarka, New Delhi 110075",
+    "lat": 28.5921,
+    "lng": 77.0460,
+    "phone": "9810000005",
+    "email": "nidhi@example.in",
+    "instagram": "suidhaga.nidhi",
+    "categories": ["Blouses", "Dresses", "Custom stitching"],
+    "starting_price": 799,
+    "home_visits": true,
+    "studio_visits": true,
+    "cover_url": null,
+    "photos": [],
+    "rating": 4.6,
+    "review_count": 14,
+    "plan": "free",
+    "snip_code": "SN-5520",
+    "services": [
+      { "name": "Saree blouse stitching", "description": "Padded or unpadded, any neckline.", "price": 1199, "duration_mins": 45 },
+      { "name": "Indo-western set", "description": "Top and bottom from your fabric.", "price": 2499, "duration_mins": 60 }
+    ],
+    "reviews": [
+      { "author_name": "Kavya D.", "rating": 5, "comment": "Loved the handloom blouse she made." }
+    ]
+  },
+  {
+    "slug": "master-ji-tailors",
+    "name": "Master Ji Tailors",
+    "kind": "Tailor",
+    "tagline": "Suits, trousers and shirts, the old-school way.",
+    "bio": "Gurpreet Singh has been tailoring menswear in Rajouri Garden for 25 years. Two-piece suits, shirts, trousers and alterations.",
+    "area": "Rajouri Garden",
+    "address": "J Block Market, Rajouri Garden, New Delhi 110027",
+    "lat": 28.6479,
+    "lng": 77.1214,
+    "phone": "9810000006",
+    "email": "masterji@example.in",
+    "instagram": null,
+    "categories": ["Menswear", "Suits", "Alterations"],
+    "starting_price": 349,
+    "home_visits": false,
+    "studio_visits": true,
+    "cover_url": null,
+    "photos": [],
+    "rating": 4.8,
+    "review_count": 89,
+    "plan": "free",
+    "snip_code": "SN-0420",
+    "services": [
+      { "name": "Trouser alteration", "description": "Waist, length and taper.", "price": 349, "duration_mins": 20 },
+      { "name": "Two-piece suit", "description": "Full custom suit with your fabric.", "price": 7999, "duration_mins": 60 },
+      { "name": "Shirt stitching", "description": "Custom fit formal or casual shirt.", "price": 899, "duration_mins": 30 }
+    ],
+    "reviews": [
+      { "author_name": "Rahul V.", "rating": 5, "comment": "Best suit fit I have ever had." }
+    ]
+  },
+  {
+    "slug": "the-drape-co",
+    "name": "The Drape Co.",
+    "kind": "Boutique",
+    "tagline": "Saree draping, pre-stitched sarees and quick fixes.",
+    "bio": "A Greater Kailash boutique known for pre-stitched sarees, draping for events and same-day alterations.",
+    "area": "Greater Kailash",
+    "address": "M Block Market, GK-1, New Delhi 110048",
+    "lat": 28.5482,
+    "lng": 77.2381,
+    "phone": "9810000007",
+    "email": "drapeco@example.in",
+    "instagram": "thedrape.co",
+    "categories": ["Alterations", "Bridal", "Blouses"],
+    "starting_price": 549,
+    "home_visits": true,
+    "studio_visits": true,
+    "cover_url": null,
+    "photos": [],
+    "rating": 4.7,
+    "review_count": 22,
+    "plan": "free",
+    "snip_code": "SN-6604",
+    "services": [
+      { "name": "Pre-stitched saree", "description": "Convert any saree into a 1-minute drape.", "price": 1299, "duration_mins": 30 },
+      { "name": "Event draping", "description": "Home visit for draping before an event.", "price": 999, "duration_mins": 45 }
+    ],
+    "reviews": [
+      { "author_name": "Meera J.", "rating": 5, "comment": "Pre-stitched saree was a lifesaver." }
+    ]
+  },
+  {
+    "slug": "thread-and-needle-noida",
+    "name": "Thread & Needle",
+    "kind": "Custom tailoring",
+    "tagline": "Kidswear, uniforms and everyday stitching.",
+    "bio": "A friendly tailoring shop in Mayur Vihar for everyday stitching: school uniforms, kidswear, kurtas and curtains.",
+    "area": "Mayur Vihar",
+    "address": "Phase 1, Mayur Vihar, Delhi 110091",
+    "lat": 28.6077,
+    "lng": 77.2947,
+    "phone": "9810000008",
+    "email": "threadneedle@example.in",
+    "instagram": null,
+    "categories": ["Alterations", "Custom stitching", "Suits"],
+    "starting_price": 299,
+    "home_visits": true,
+    "studio_visits": true,
+    "cover_url": null,
+    "photos": [],
+    "rating": 4.5,
+    "review_count": 31,
+    "plan": "free",
+    "snip_code": "SN-7712",
+    "services": [
+      { "name": "Quick alteration", "description": "Small fixes, buttons and hems.", "price": 299, "duration_mins": 20 },
+      { "name": "Kids kurta", "description": "Festive kurta for kids.", "price": 599, "duration_mins": 30 }
+    ],
+    "reviews": [
+      { "author_name": "Deepa N.", "rating": 4, "comment": "Reliable and cheap for everyday work." }
+    ]
+  }
+]
